@@ -302,6 +302,8 @@ Total of all aerodynamic forces which resist the aircraft's movement through the
 -   Caused by the shape of the object as it moves through the air
 -   A less streamlined shape will cause more turbulence, therefore more drag
 
+![bg contain right](./parasite-drag.png)
+
 ---
 
 #### Skin friction drag
@@ -310,12 +312,16 @@ Total of all aerodynamic forces which resist the aircraft's movement through the
 -   Rivets, seams, and other imperfections in the aircraft surface can increase skin friction drag
 -   Contaminants such as ice, bugs, or dirt can also increase skin friction drag
 
+![bg right](./skin-friction-drag.JPG)
+
 ---
 
 #### Interference drag
 
 -   Caused by the mixing of airstreams
 -   Common at the junction of surfaces (e.g. where the wings meet the fuselage)
+
+![bg right](./interference-drag.JPG)
 
 ---
 
