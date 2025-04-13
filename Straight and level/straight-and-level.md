@@ -27,6 +27,8 @@ To explain the principles of straight and level flight at a constant altitude, a
 
 ## Objectives
 
+By the end of this brief you should be able to:
+
 *   Explain the forces acting on an aeroplane in straight and level flight
 *   Explain the generation of lift and which factors can be controlled by the pilot
 *   Explain the different types of drag and how they contribute to the total drag of the aeroplane
@@ -472,6 +474,8 @@ Dynamic stability refers to the behaviour of a statically stable object **over t
 ---
 
 ## Objectives
+
+By the end of this brief you should be able to:
 
 *   Explain the forces acting on an aeroplane in straight and level flight
 *   Explain the generation of lift and which factors can be controlled by the pilot
