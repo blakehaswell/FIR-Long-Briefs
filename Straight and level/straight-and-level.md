@@ -479,7 +479,7 @@ Dynamic stability refers to the behaviour of a statically stable object **over t
 
 ## Objectives
 
-By the end of this brief you should be able to:
+You should now be able to:
 
 *   Explain the forces acting on an aeroplane in straight and level flight
 *   Explain the generation of lift and which factors can be controlled by the pilot
