@@ -299,6 +299,10 @@ Total of all aerodynamic forces which resist the aircraft's movement through the
 
 ---
 
+<!--
+_class:
+-->
+
 #### Form drag
 
 -   Caused by the shape of the object as it moves through the air
