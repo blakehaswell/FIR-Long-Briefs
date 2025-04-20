@@ -56,9 +56,9 @@ Duration: approx 40 mins
 
 ## Revision
 
-*   What are the four forces which act on an aeroplane in straight and level flight?
-*   What is meant by equilibrium?
-*   What happens to the total drag force as an aeroplane accelerates from slow flight to fast flight?
+*   List the four forces which act on an aeroplane in straight and level flight
+*   Describe what is meant by equilibrium
+*   Explain what happens to the total drag force as an aeroplane accelerates from slow flight to fast flight
 
 <!--
 
@@ -489,11 +489,11 @@ Wind     | Hw Increase, Tw Decrease | Nil
 
 ## Review questions
 
-*   What are the three types of climb?
-*   When would you use each type of climb?
-*   During a climb, what happens to the lift force compared to level flight?
-*   What effect does wind have on climb performance?
-*   What flaps configuration gives us best climb performance in the Cessna 150?
+*   List the three types of climb
+*   Give an example of when would you use each type of climb
+*   Describe the lift force during a climb, compared to level flight
+*   Explain the effect of wind on climb performance
+*   State the flaps configuration that gives us best climb performance in the Cessna 150
 
 ---
 
