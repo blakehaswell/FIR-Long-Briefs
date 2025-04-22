@@ -358,6 +358,11 @@ _class:
 
 ## Factors affecting climb performance
 
+*   Weight
+*   Altitude
+*   Flaps
+*   Wind
+
 ---
 
 <!--
@@ -448,6 +453,10 @@ Altitude | Decrease                 | Decrease
 Flap     | Decrease                 | Decrease
 Wind     | Hw Increase, Tw Decrease | Nil
 -->
+
+---
+
+## Application
 
 ---
 
