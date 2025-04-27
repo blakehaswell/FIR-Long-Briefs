@@ -38,7 +38,7 @@ To learn the principles & aerodynamics of a turn, as well as how to fly the thre
 
 By the end of this brief you should be able to:
 
-*   Lift (describe? explain?) the forces acting on an aeroplane during a turn
+*   Describe the forces acting on an aeroplane during a turn
 *   Describe the relationship between angle of bank, airspeed, rate of turn, and radius of turn
 *   Explain the cause of adverse yaw and how to counter it
 *   Describe the overbank and underbank tendencies
@@ -473,6 +473,31 @@ _class: lead
 
 ## Review questions
 
-*   Explain what happens to the orientation of the lift force during a turn, and how this contributes to the turning motion
-*   State how speed affects rate and radius of turn
-*   State how angle of bank affects rate and radius of turn
+*   What happens to the orientation of the lift force during a turn?
+    <!-- Lift vector is tilted, this provides our centripetal force towards the centre of the turn -->
+*   Why do we increase back pressure on the yoke during a turn?
+    <!-- To increase the vertical component of lift to equal weight -->
+*   How does speed affect rate and radius of turn?
+    <!-- Higher speed = reduced rate, increased radius -->
+*   How does angle of bank affect rate and radius of turn?
+    <!-- Higher AoB = increased rate, decreased radius -->
+*   Describe the cause of the adverse yaw effect
+    <!-- Outer wing has increased angle of attack, therefore drag -->
+*   How do pilots counter the adverse yaw effect?
+    <!-- Coordinated use of ailerons and rudder. Ailerons for right bank + right rudder. -->
+*   What causes the overbanking tendency in a level turn?
+    <!-- Outside wing travels faster, therefore generates more lift -->
+*   What do we do if the balance ball is not centred?
+    <!-- "Step on the ball!" Increase rudder pressure as required to get the ball centred. -->
+
+---
+
+## Objectives
+
+You should now be able to:
+
+*   Describe the forces acting on an aeroplane during a turn
+*   Describe the relationship between angle of bank, airspeed, rate of turn, and radius of turn
+*   Explain the cause of adverse yaw and how to counter it
+*   Describe the overbank and underbank tendencies
+*   Identify and recover from skid and slip
