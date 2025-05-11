@@ -207,14 +207,14 @@ _class:
 
 <!-- Demo with model -->
 
-*   Elevator
+*   <span style="color: #09f">Elevator</span>
     <!-- Pushing the control column forward tilts the elevator down. The air hitting the elevator causes the tail to move up, and the nose to move down. This is called pitch. -->
     <!-- Primary effect: pitch up and down -->
-*   Ailerons
+*   <span style="color: #0c0">Ailerons</span>
     <!-- Turning the control column moves the ailerons in opposite directions. When you turn the control column left the left aileron will move up, and the right aileron will move down. This pushes the left wing down, and the right wing up. This is called roll. -->
     <!-- Primary effect: roll -->
     <!-- Tilts the wings reaction force, causes aircraft to start moving sideways through the air. Air hits the vertical tail fin, which causes a yaw in the direction of roll. Therefore the secondary effect of ailerons is yaw. -->
-*   Rudder
+*   <span style="color: #f00">Rudder</span>
     <!-- Pushing one of the rudder pedals in moves the rudder. For example pushing the left rudder moves the rudder to the left, which moves the tail right and the nose left. This is called yaw. -->
     <!-- Primary effect: yaw -->
     <!-- As the plane yaws, the outside wing travels a longer path through the air, and therefore is travelling faster. Speed increases the reaction force from the outside wing, which means the outside wing moves upwards. Therefore the secondary effect of rudder is roll. -->
@@ -234,6 +234,10 @@ Rudder         | Yaw            | Roll
 <!-- What can you tell me about the effects of ailerons vs rudder? Their primary and secondary effects are opposite. -->
 
 ---
+
+<!--
+_class: lead
+-->
 
 ## Ancillary flight controls
 
@@ -273,7 +277,6 @@ _backgroundColor: #fff
 ## Trim
 
 ![h:450](./elevator-trim-tab-movement.png)
-<!-- FIXME: tab up elevator up is wrong. Remove it -->
 
 <!-- The trim tab is deflected into the wind in the opposite direction that you want the primary control surface to move, and because it's at the end of a long lever it only needs to create a relatively small force to balance with the control surface in its new position. -->
 
@@ -414,7 +417,7 @@ _backgroundColor: #fff
 ## Threat and error management
 
 *   Threat and error management (TEM) is a safety management approach
-*   TEM is the process of detecting and responding to threads and errors before they compromise safety
+*   TEM is the process of detecting and responding to threats and errors before they compromise safety
 *   **Threats** have the potential to have a negative effect on flight safety
 *   **Errors** are flight crew actions (or inactions) which can lead to an **undesirable aircraft state** (UAS)
 *   We combat threats and errors by implementing **countermeasures**
