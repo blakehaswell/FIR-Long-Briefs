@@ -40,7 +40,7 @@ _footer: ''
 
 By the end of this brief you should be able to:
 
-*   Describe the relationship between bank angle and load factor
+*   Describe the relationship between bank angle, load factor, and stall speed
 *   State what limits max angle of bank in low powered and high powered aircraft
 *   List the symptoms and describe the recovery from a spiral dive
 
@@ -257,7 +257,7 @@ Formula for turn radius = V^2 / 11.26 * tan(AoB)
     *   Rapid loss of altitude
     *   Risk of structural damage
 *   Often due to **poorly managed steep turn** or **disorientation in IMC**
-*   **Symptoms:** high and rapidly increasing airspeed, increasing load factor
+*   **Symptoms:** high and rapidly increasing airspeed, increasing rate of descent, increasing load factor
 *   **Recovery:** power idle, wings level, gently ease out of the dive, re-introduce power once at a normal cruising speed
 
 <!--
