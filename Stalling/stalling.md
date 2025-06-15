@@ -84,7 +84,7 @@ _class:
 <video src="./boundary-layer-separation-and-stall.mp4" controls="controls" width="480" height="393" loop muted></video>
 
 <!--
-Air flowing near the surface of the wing is in the so-called boundary layer, where right at the surface the air has zero velocity, and the air's velocity increases to the free stream velocity as you move away from the surface. The area where air speed is slowed is called the boundary layer.
+Air flowing near the surface of the wing is in the so-called boundary layer, where right at the surface the air has zero velocity, and the air's velocity increases to the free stream velocity as you move away from the surface. The area where airspeed is slowed is called the boundary layer.
 
 Air in the boundary layer can either be laminar flow, which is a very smooth flow of air, or it can be turbulent flow, which contains swirls and eddies and creates much more drag than laminar flow.
 

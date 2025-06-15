@@ -300,7 +300,7 @@ _backgroundColor: #fff
 <!--
 Flaps allow us to change the size and the shape of the wing. Remembering back to our piece of paper, what does that do to the reaction force? It increases it! Flaps also affect the drag force, which is the one that resists our movement through the air. What would you guess flaps does to the drag force, increase or decrease it? Increase it! That extra flaps allows us to descend at a steeper angle without going faster.
 
-Because we're changing the shape of the wing we also change the structural limitations of the wing. If we look at the air speed indicator you'll see a white arc, that arc shows the flaps operation speed. We are only allowed to operate the flaps when our speed is within that white arc.
+Because we're changing the shape of the wing we also change the structural limitations of the wing. If we look at the airspeed indicator you'll see a white arc, that arc shows the flaps operation speed. We are only allowed to operate the flaps when our speed is within that white arc.
 -->
 
 ---
@@ -391,7 +391,7 @@ _backgroundColor: #fff
 ## Instrument panel
 
 *   Standard 6 pack
-    *   Air speed indicator
+    *   Airspeed indicator
     *   Attitude indicator
     *   Altimeter
     *   Vertical speed indicator
