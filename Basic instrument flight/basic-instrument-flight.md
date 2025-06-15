@@ -29,7 +29,7 @@ _footer: ''
 
 ## Motivation
 
-*   Inadvertant flight into IMC is one of of biggest causes of fatal aviation accidents around the world
+*   Inadvertent flight into IMC is one of of biggest causes of fatal aviation accidents around the world
 *   A 1954 study from the University of Illinois found that a 180° turn curriculum materially increases the chance of surviving unexpected IMC
 *   **This is not an instrument rating, and is not sufficient training for intentional flight into cloud**
 
@@ -61,7 +61,7 @@ Duration: approx 45 mins
 
 ## Revision
 
-*   What instruments will you find in thee "six pack"?
+*   What instruments will you find in the "six pack"?
     <!-- ASI, AH, Altimeter, turn coordinator, DI, VSI -->
 *   What is our procedure for entering a climb?
     <!-- PAST -->
@@ -295,6 +295,7 @@ _backgroundColor: #fff
 ## Turn coordinator
 
 *   Indicates rate of yaw (turn coordinator vs turn-and-slip indicator)
+    <!-- The marks indicate a rate 1 turn (3 degrees per second, or 2 minutes for 360 degrees) -->
 *   Ball to indicate balance
 *   Electrically driven
     <!-- Redundancy in-case of vacuum system failure -->
