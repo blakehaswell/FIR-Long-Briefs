@@ -232,7 +232,7 @@ _backgroundColor: #fff
     *   Tendency to maintain original alignment in space
 *   Precession
     *   When a force is applied to a gyroscope, the force manifests 90° later in the direction of rotation
-*   vacuum driven or electrically driven
+*   Vacuum driven or electrically driven
     <!-- Or in this case, string driven! -->
 
 <!-- Rotor, mounted on gymbals, which allow multiple degrees of freedom of movement -->
@@ -248,10 +248,10 @@ _backgroundColor: #fff
 
 *   Shows pitch attitude and bank angle
 *   Plane/instrument moves around the gyro
-*   vacuum driven
+*   Vacuum driven
 *   Ground checks:
     *   Align wings with horizon
-    *   Suction guage = green
+    *   Suction gauge = green
 
 ![bg right contain](./attitude-indicator.png)
 
@@ -270,12 +270,12 @@ _backgroundColor: #fff
 
 *   Shows heading information
 *   Needs to be aligned!
-*   vacuum driven
+*   Vacuum driven
 *   Ground checks
     *   Aligned with compass
         <!-- Needs to be aligned every 15 minutes or so in the air -->
         <!-- Also Earth-rate procession -->
-    *   Suction guage = green
+    *   Suction gauge = green
     *   Left and right turns
 
 ![bg right contain](./directional-indicator.png)
@@ -312,6 +312,50 @@ _backgroundColor: #fff
 ---
 
 ## Application
+
+---
+
+## Threat and error management
+
+Threat | Error | UAS | Countermeasure
+-------|-------|-----|---------------
+<small>IMC</small> | <small>"Rough" control inputs</small> | <small>Disorientation</small> |
+
+---
+
+## Threat and error management
+
+Threat | Error | UAS | Countermeasure
+-------|-------|-----|---------------
+<small>IMC</small> | <small>"Rough" control inputs</small> | <small>Disorientation</small> | <small>Fly smooth, reduce head movements</small>
+
+---
+
+## Threat and error management
+
+Threat | Error | UAS | Countermeasure
+-------|-------|-----|---------------
+<small>IMC</small> | <small>"Rough" control inputs</small> | <small>Disorientation</small> | <small>Fly smooth, reduce head movements</small>
+<small>Disorientation</small> | <small>Believing bodily sensations</small> | <small>Unintended turn, climb, or descent</small> |
+
+---
+
+## Threat and error management
+
+Threat | Error | UAS | Countermeasure
+-------|-------|-----|---------------
+<small>IMC</small> | <small>"Rough" control inputs</small> | <small>Disorientation</small> | <small>Fly smooth, reduce head movements</small>
+<small>Disorientation</small> | <small>Believing bodily sensations</small> | <small>Unintended turn, climb, or descent</small> | <small>Trust instruments</small>
+
+---
+
+## Threat and error management
+
+Threat | Error | UAS | Countermeasure
+-------|-------|-----|---------------
+<small>IMC</small> | <small>"Rough" control inputs</small> | <small>Disorientation</small> | <small>Fly smooth, reduce head movements</small>
+<small>Disorientation</small> | <small>Believing bodily sensations</small> | <small>Unintended turn, climb, or descent</small> | <small>Trust instruments</small>
+<small>Instrument failure</small> | <small>Assuming everything is working</small> | <small>In flight without instruments</small> |
 
 ---
 
