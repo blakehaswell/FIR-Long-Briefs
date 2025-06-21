@@ -182,6 +182,8 @@ _backgroundColor: #fff
 
 <!-- If the static port is blocked the instrument freezes—any change in altitude results in no change -->
 
+<!-- If the QNH is incorrectly set, the altimeter won't read the correct altitude—either too high or too low depending on the QNH you've set -->
+
 <!-- Ground checks: QNH or runway elevation set -->
 
 ---
@@ -236,6 +238,17 @@ _backgroundColor: #fff
     <!-- Or in this case, string driven! -->
 
 <!-- Rotor, mounted on gymbals, which allow multiple degrees of freedom of movement -->
+
+---
+
+<!--
+_class: lead
+_backgroundColor: #fff
+-->
+
+## Vacuum pump system
+
+![h:450](./vaccuum-pump-system.png)
 
 ---
 
