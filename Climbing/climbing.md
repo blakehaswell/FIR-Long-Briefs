@@ -5,25 +5,32 @@ class: invert
 footer: 'Climbing'
 --- 
 
+<style>
+    table {
+        width: 100%;
+        text-align: left;
+    }
+</style>
+
 <!--
 _class: lead
 _footer: ''
 -->
 
-# Climbing
+## Climbing
 
 ---
 
 ## Aim
 
-To learn the different types of climb, how to achieve set performance, and to learn the aerodynamics behind a climb
+*   To learn the different types of climb, how to achieve set performance, and to learn the aerodynamics behind a climb
 
 ---
 
 ## Motivation
 
 *   Every flight has at least one climb—immediately after take-off
-*   It's another fundamental skill that our future maneuvers will build upon, as well as an opportunity to further develop your aeroplane handling skills
+*   It's another fundamental skill that our future maneuvres will build upon, as well as an opportunity to further develop your aeroplane handling skills
 
 <!--
 Attitude flying, smooth control inputs, balanced/coordinated flight
@@ -43,12 +50,13 @@ By the end of this brief you should be able to:
 
 ## Lesson overview
 
-Duration: approx 40 mins
+Duration: approx 50 mins
 
 *   Definitions
 *   Types of climb
 *   Forces in a climb
 *   Climb performance
+*   Application
 *   Threat and error management
 *   Review questions
 
@@ -56,9 +64,9 @@ Duration: approx 40 mins
 
 ## Revision
 
-*   List the four forces which act on an aeroplane in straight and level flight
-*   Describe what is meant by equilibrium
-*   Explain what happens to the total drag force as an aeroplane accelerates from slow flight to fast flight
+*   What are the four forces which act on an aeroplane in straight and level flight?
+*   What is meant by equilibrium?
+*   Why does the total drag curve form a "U" shape?
 
 <!--
 
@@ -91,16 +99,12 @@ Include power and ground speed?
 ---
 
 <!--
-_class:
+_class: lead
 -->
 
 ## Types of climb
 
-*   <span style="color: #f00">Best angle of climb</span>
-*   <span style="color: #09f">Best rate of climb</span>
-*   <span style="color: #0c0">Normal (cruise) climb</span>
-
-![bg right contain](./altitude-distance-over-one-minute.png)
+![h:450](./altitude-distance-over-one-minute.png)
 
 <!--
 TODO: Consider moving this after forces in a climb
@@ -138,6 +142,8 @@ _class: lead
 
 ![w:580](./four-forces_1.png)
 
+<!-- Let's analyse the forces acting on a plane in steady flight up the green path -->
+
 ---
 
 <!--
@@ -147,6 +153,9 @@ _class: lead
 ## Forces in a climb
 
 ![w:580](./four-forces_2.png)
+
+
+<!-- Weight acts downwards towards the centre of the earth -->
 
 ---
 
@@ -158,6 +167,8 @@ _class: lead
 
 ![w:580](./four-forces_3.png)
 
+<!-- Drag, once again, acts backwards against the direction of motion -->
+
 ---
 
 <!--
@@ -167,6 +178,8 @@ _class: lead
 ## Forces in a climb
 
 ![w:580](./four-forces_4.png)
+
+<!-- Let's start by adding weight and drag together to create a resultant and call it R1. -->
 
 ---
 
@@ -178,6 +191,12 @@ _class: lead
 
 ![w:580](./four-forces_5.png)
 
+<!--
+Since the plane is in equilibrium, there must be a force equal an opposite to R1, let's call it R2.
+
+Knowing what you already know about the 4 forces, which two forces do you think are contributing to R2? Thrust and lift.
+-->
+
 ---
 
 <!--
@@ -187,6 +206,10 @@ _class: lead
 ## Forces in a climb
 
 ![w:580](./four-forces_6.png)
+
+<!--
+Thrust acts in the direction of motion
+-->
 
 ---
 
@@ -198,64 +221,23 @@ _class: lead
 
 ![w:580](./four-forces_7.png)
 
----
-
-<!-- DELETE THIS TO ENABLE SLIDE
-## Thrust
-
->   For every action, there is an equal and opposite reaction
-—Newton's 3rd law of motion
-
-*   Engine spins a propeller, which accelerates a mass of air backwards
-*   The equal and opposite reaction is that the aeroplane is pushed forwards
-
----
-
 <!--
-_class: lead
-_backgroundColor: #f6fafb
+Lift acts at 90 degrees to the direction of motion.
+
+In level flight, thrust = drag. What can you tell me about the relationship between thrust and drag in this diagram? Thrust > drag.
+
+So why doesn't the plane accelerate? To answer this, we split weight into two components: 1) the perpendicular component of weight which is equal and opposite to lift and 2) the rearward component of weight which acts opposite thrust. We can visualise this by adding the rearward component of weight to drag, and you can see that thrust = drag + RCW.
+
+In straight and level flight, lift = weight, but what can you tell me about lift in this diagram? Lift = PCW. Therefore, lift is less than weight in a climb. Not convinced? Imagine an airplane that is pointed straight up, and capable of climbing at that angle. Weight acts downwards, as does drag. Thrust is the only force which can create equilibrium, as it points along the direction of motion.
+
+So the amount of thrust available dictates the angle we can climb at. Now, let's look at climb performance so we can examine that idea in a bit more detail.
 -->
 
-<!-- DELETE THIS TO ENABLE SLIDE
-## Propellers
-
-![w:900](./propeller-blade-twist.png)
-
-<!--
-
-### About propellers
-
-*   Propeller is a wing and thus produces lift, it's just angled so that it produces lift in a forwards direction
-*   Fat in the middle, skinny on the outside—to provide structural integrity at the root and reduce weight at the tip
-*   Blade is twisted so that the angle of attack, the angle the blade meets the air, is constant. The twist is required because the outer edge of the blade is covering more distance that the inner portion.
-
-### Fixed-pitch propellers
-
-*   The C150 and many trainer aeroplanes have "fixed pitch" propellers, which means that the blade's angle of incidence or "pitch" cannot be changed. More advanced aeroplanes have variable-pitch propellers, which mean that an optimal angle of attack can be used through any stage of flight. A fixed-pitch propeller is a simpler system, but means that the propeller is most efficient at one particular speed.
-*   For the C150 the propeller is most efficient at climb speeds because we need all the help we can get in a climb, whereas more powerful aeroplanes might have a fixed-pitch propeller that is set to be more efficient at cruise.
--->
-
-<!-- DELETE THIS TO ENABLE SLIDE
 ---
 
 <!--
 _class: lead
-_backgroundColor: #f6fafb
 -->
-
-<!-- DELETE THIS TO ENABLE SLIDE
-## Propellers
-
-![h:390](./propeller-chip.jpg)
-
-<!--
-*   One particular threat regarding propellers is chips and cracks, caused by impacts with foreign objects like stones. These can propogate, eventually causing failure.
-*   As part of our pre-flight inspection we must check the leading edge for chips, and check the front and rear faces for cracks.
--->
-
-<!-- DELETE THIS TO ENABLE SLIDE
----
-DELETE THIS TO ENABLE SLIDE -->
 
 ## Climb performance
 
@@ -265,24 +247,80 @@ DELETE THIS TO ENABLE SLIDE -->
 _class:
 -->
 
-### Best angle of climb
+## Best angle of climb
 
-*   V<sub>X</sub>
 *   Occurs at maximum excess thrust
 *   Speed = 56kts
+*   Also known as: V<sub>X</sub>
 
 ![bg right contain](./excess-thrust.png)
 
+<!--
+Blue line represents thrust available. The faster you fly, the less effective the propeller is, so the less thrust is available. Think of it like paddling a kayak: if you're sitting still you can use the paddle to give yourself a big push and accelerate yourself and you feel a lot of resistance from the water, but if you're already going fast even if you paddle as hard as you can you don't feel as much resistant from the water and you don't really go much faster.
+
+Red line represents thrust required. Now remember in level flight, thrust is used to overcome drag, so the thrust required line actually mirrors the total drag curve.
+
+If we compare the curves, the area with the biggest gap between them represents our maximum excess thrust, and that's the speed where we will achieve our best angle of climb. Remembering from our four forces explanation, that it's thrust which is used to overcome drag and the rearward component of weight. So the biggest excess gives us the best climb angle.
+-->
+
 ---
 
-### Power
+<!--
+_class: lead invert
+-->
 
-*   Work = Force × Distance
-*   Power = Work ÷ Time
-*   Therefore, power is the rate of doing work
+## Power
+
+$$
+\begin{align}
+Force &= Mass \times Acceleration\\
+\\
+\\
+\end{align}
+$$
 
 <!--
-In this case the work is climbing, so the greater the power the greater the height we can climb in a given time
+Thrust is a _force_. F = MA, therefore the more thrust you apply the faster you can accelerate a plane.
+-->
+
+---
+
+<!--
+_class: lead invert
+-->
+
+## Power
+
+$$
+\begin{align}
+Force &= Mass \times Acceleration\\
+Work &= Force \times Distance\\
+\\
+\end{align}
+$$
+
+<!--
+If you move an object, then you have done "work". The further you move something the more work you have done. W = FD.
+-->
+
+---
+
+<!--
+_class: lead invert
+-->
+
+## Power
+
+$$
+\begin{align}
+Force &= Mass \times Acceleration\\
+Work &= Force \times Distance\\
+Power &= Work \div Time
+\end{align}
+$$
+
+<!--
+Power is how quickly work is done i.e. P = W/D. Think of it as the rate of work. In this case, the work is climbing, so power affects rate of climb.
 -->
 
 ---
@@ -291,21 +329,29 @@ In this case the work is climbing, so the greater the power the greater the heig
 _class:
 -->
 
-### Best rate of climb
+## Best rate of climb
 
-*   V<sub>Y</sub>
 *   Occurs at maximum excess power
 *   Speed = 68kts
+*   Also known as: V<sub>Y</sub>
 
 ![bg right contain](./excess-power.png)
 
+<!--
+We said P = W/D. Another way to phrase it is P = Thrust * Speed. We get this graph by taking the thrust available curves, and the thrust required curves, and multiplying them by speed.
+
+What can you tell me about the power available curve? What about the power required curve? This shows that power available is relatively constant as speed increases, but power required increases sharply as speed increases.
+
+Where will we find best rate of climb? Again, it's about excess power. We're looking for the point where we have maximum excess power.
+-->
+
 ---
 
 <!--
 _class:
 -->
 
-### Normal (cruise) climb
+## Normal (cruise) climb
 
 *   Normally ~10kts faster than V<sub>Y</sub>, depending on the plane
 *   Speed = 70–80kts
@@ -313,7 +359,9 @@ _class:
 ![bg right contain](./excess-power-cruise-climb.png)
 
 <!--
-A bit faster than best rate, but still a decent amount of excess power so climb rate isn't too bad
+Cruise climb is less engineer-y and more hand-wavy. We're looking for a comfortable rate of climb for our passengers, a faster air speed so we can keep the engine cool and get to our destination in a reasonable time, but we don't want to climb so slowly that we never reach our target altitude.
+
+In other words, a bit faster than best rate, but still utilizing a decent amount of excess power so climb rate isn't too bad.
 -->
 
 ---
@@ -369,11 +417,12 @@ _class:
 _class:
 -->
 
-### Weight
+## Weight
 
 As weight increases:
 
 *   More thrust and power is required to fly level
+    <!-- Consider a truck vs a car going up a hill, which is going to struggle more to climb up a hill? -->
 *   Less excess thrust and power
 *   Therefore, maximum angle and rate of climb is decreased
 
@@ -381,31 +430,39 @@ As weight increases:
 
 ---
 
-### Altitude
+<!--
+_class:
+-->
+
+## Altitude
 
 As altitude increases:
 
-*   Power is reduced, due to decreased air density
-*   Additionally, more power is required to fly level at any given airspeed
+*   Thrust and power available is reduced, due to decreased air density
+    <!-- *   Additionally, more power is required to fly level at any given airspeed  -->
 *   Maximum angle and rate of climb are reduced
+
+![bg right contain](./excess-power.png)
 
 ---
 
-### Flaps
+## Flaps
 
 *   The effect of flaps can depend on the specific aircraft and flaps configuration, so check the POH!
 *   In a Cessna 150 any extension of flaps reduces maximum angle and rate of climb
 
+![bg right](./flaps.jpg)
+
 ---
 
-### Wind
+## Wind
 
 *   An aeroplane in a headwind will gain the same altitude in a minute as an aircraft in nil wind
 *   However, during that minute the parcel of air the aeroplane is flying in will have moved, therefore the angle of climb is increased
 *   In summary:
-    *   Wind has no effect of rate of climb
-    *   A headwind increases angle of climb
-    *   A tailwind decreases angle of climb
+    *   Wind has no effect of **rate of climb**
+    *   A **headwind** increases **angle of climb**
+    *   A **tailwind** decreases **angle of climb**
 
 <!--
 Analogy: swimming against a current: does the current affect how many strokes you make in a minute? No, your "rate of stroke" remains the same, just the water you are swimming in is moving so you don't get as far in a minute.
@@ -498,11 +555,12 @@ Wind     | Hw Increase, Tw Decrease | Nil
 
 ## Review questions
 
-*   List the three types of climb
-*   Give an example of when would you use each type of climb
-*   Describe the lift force during a climb, compared to level flight
-*   Explain the effect of wind on climb performance
-*   State the flaps configuration that gives us best climb performance in the Cessna 150
+*   What are the three types of climb?
+*   If you are taking off from a runway with trees at the end, how would you avoid them during your climb out?
+*   How does a plane overcome the drag force and the rearward component of weight during a climb?
+*   How does the lift force change in a climb compared to straight and level flight?
+*   Why does a headwind increase our angle of climb?
+*   Apart from wind, what other factors affect climb performance?
 
 ---
 
