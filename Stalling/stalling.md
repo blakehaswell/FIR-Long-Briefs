@@ -5,6 +5,13 @@ class: invert
 footer: 'Stalling'
 --- 
 
+<style>
+    table {
+        width: 100%;
+        text-align: left;
+    }
+</style>
+
 <!--
 _class: lead
 _footer: ''
@@ -17,14 +24,14 @@ When you hear the word stall, what do you think of?
 
 Most people think of a car engine stalling, where you let the clutch out too early and the engine stops
 
-Today we're talking about a completely different type of stall—an aerodynamic stall. In an aerodynamic stall the engine is still running, we're just in a condition where the wings aren't producing enough lift to maintain flight.
+Today we're talking about a completely different type of stall—an aerodynamic stall. In an aerodynamic stall the engine is still running, we're just in a condition where the wings are at such a high angle of attack that they don't produce enough lift to maintain flight.
 -->
 
 ---
 
 ## Aim
 
-To learn the principles of a stall, the symptoms of a stall, and recovery from a stall
+*   To learn the aerodynamics behind stalling, the symptoms of a stall, and recovery from a stall
 
 ---
 
@@ -39,7 +46,7 @@ Unlike the lessons we've done so far, we're not practicing a manoeuvre that you'
 *   To recover from an inadvertent stall
     <!-- An unintentional stall should never happen. When you experience the stall you will notice how extreme the control inputs are and how far we are from the normal flight envelope—you will probably think to yourself "how does anyone do this by accident?" -->
     <!-- But unfortunately, people still do. Getting too slow on approach to landing and stalling in the base–final turn is sadly common, as is dragging the plane in too slow on final, and pulling up too high after takeoff. -->
-    <!-- So we practice stalling, so that if we ever do inadvertently stall we know the recovery. -->
+    <!-- Because stalling does happen, we practice stalling so that if we ever do inadvertently stall we know the recovery. -->
 
 ---
 
@@ -47,20 +54,21 @@ Unlike the lessons we've done so far, we're not practicing a manoeuvre that you'
 
 By the end of this brief you should be able to:
 
-*   State all symptoms of an impending stall
+*   State the symptoms of an impending stall
 *   Demonstrate the stalling motion with the model
 *   Describe the stall recovery technique
-*   Explain the factors affecting stall speed
-*   List the pre-stall checks
+*   List the factors affecting stall speed
+*   State the pre-stall checks
 
 ---
 
 ## Lesson overview
 
-Duration: approx 40 mins
+Duration: approx 50 mins
 
-*   Aerodynamics of a stall
+*   Stall aerodynamics
 *   Factors affecting stall speed
+*   Symptoms of a stall
 *   Control in the stall
 *   Application
 *   Threat and error management
@@ -70,8 +78,8 @@ Duration: approx 40 mins
 
 ## Revision
 
-*   What is the lift formula?
-    <!-- Lift = C_L 1/2 rho V^2 S -->
+*   What is the pilot's lift formula? <!-- Lift = Speed * AoA, so as we reduce speed we increase AoA. We'll see today that there's a limit this formula, we can't increase AoA forever, therefore there's a limit to how slowly we can fly. When we practice stalls, we're going to be in slow flight. -->
+*   How does control feel change in slow flight? <!-- Why do the controls feel mushy in slow flight? -->
 
 ---
 
@@ -79,7 +87,7 @@ Duration: approx 40 mins
 _class:
 -->
 
-## Aerodynamics of a stall
+## Stall aerodynamics
 
 <video src="./boundary-layer-separation-and-stall.mp4" controls="controls" width="480" height="393" loop muted></video>
 
@@ -99,12 +107,12 @@ Eventually as angle of attack increases the wing can no longer effectively gener
 _class:
 -->
 
-## Aerodynamics of a stall
+## Stall aerodynamics
 
 ![h:480](../Straight%20and%20level/lift-curve.png)
 
 <!--
-This coefficient of lift graph is another way of telling the same story.
+Remembering back to our straight and level brief, we showed this coefficient of lift graph. Reading the graph, what happens to coefficient of lift as AoA increases? This is another way of telling the same story.
 
 You can see that as angle of attack increases, so does coefficient of lift.
 
@@ -119,7 +127,7 @@ Further increases in angle of attack past 16 degrees result in less lift being p
 _class:
 -->
 
-## Aerodynamics of a stall
+## Stall aerodynamics
 
 
 <video src="./airflow-during-a-stall.webm" controls="controls" width="854" height="480" loop muted></video>
@@ -137,7 +145,9 @@ In level flight the airflow is attached to the wing in laminar flow. As the angl
 ## Factors affecting stall speed
 
 $$
-Lift = AoA \times Speed
+\begin{align}
+Lift &= AoA \times Speed
+\end{align}
 $$
 
 ---
@@ -151,14 +161,20 @@ Lift &= 16\textdegree \times Speed
 \end{align}
 $$
 
+<!--
+Because we know the stalling AoA is a constant, we can substitute the variable AoA with 16 degrees. So if we want to evluate how different factors affect stall speed, we just need to think about whether the wing needs to produce more or less lift as that factor changes.
+-->
+
 *   Cessna 150 V<sub>S</sub> is 47kts
     <!-- No flap, no power, max weight, most forward CG. Assumes straight and level, but we can stall at any speed during manouvres, as we shall soon see. -->
 *   Weight
     <!-- If we increase weight, we need to increase lift. Therefore stall speed increases. -->
+    <!-- DRAW: Four forces, increase weight vector and ask what needs to happen to achieve equilibrium -->
     *   Increased weight = increased stall speed
     <!-- Be cautious with added weight—particularly immediately after takeoff with a heavier load your stall speed can be noticeably faster. -->
 *   Flaps
-    <!-- If we add flaps, we increase lift. Therefore we can fly slower and still generate enough lift, so stall speed decreases. How much does it decrease? Vs0 is the stall speed with full flaps (bottom of the white arc) -->
+    <!-- If we add flaps, we increase lift produced at any given speed. Therefore we can fly slower and still generate enough lift, so stall speed decreases. How much does it decrease? Vs0 is the stall speed with full flaps (bottom of the white arc) -->
+    <!-- Draw C_L diagram (C_L x AoA). C_L with flaps is just moved up on the Y axis. -->
     *   Adding flaps reduces stall speed. V<sub>S0</sub> in Cessna 150 is 42kts. 
     <!-- Flaps are used in slow flight and landings to increase safety margin over the stall. -->
 
@@ -175,10 +191,12 @@ $$
 
 *   Power
     <!-- Thrust vector is pointed up at high angles of attack, additionally it increases the speed of the airflow over parts of the wing which increases lift. Therefore stall speed decreases. -->
+    <!-- DRAW: Four forces in level slow flight at high AoA and ask what direction thrust vector will point. Show thrust vector pointing up, resolve thrust into forwards component of thrust and vertical component of thrust. -->
     *   Adding power decreases stall speed
     <!-- Power can give us safety margin at low speed -->
 *   Manoeuvres
     <!-- When in curving flight e.g. turning or pulling out of a dive, stall speed increases. -->
+    <!-- DRAW: Four forces in a turn. Increase lift vector so vertical component of lift = weight. New term: load factor = lift / weight. -->
     *   During manoeuvring stall speed increases
     *   New V<sub>S</sub> = Old V<sub>S</sub> × √Load factor
         <!-- Illustrate load factor with four forces diagram. Load factor = lift / weight. -->
@@ -209,7 +227,7 @@ $$
 ## Symptoms of a stall
 
 <!--
-Use the model to show approach to a stall, and question students about symptoms.
+Use the model to show approach to a stall (idle power, try to maintain altitude), and question students about symptoms.
 -->
 
 *   Reducing IAS
@@ -224,6 +242,10 @@ Use the model to show approach to a stall, and question students about symptoms.
     <!-- As the stall is approached the stall horn will sound. The stall horn is a mechanical device, and as with any mechanical device it might fail and should not be relied upon. You cannot assume that you are safe from a stall just because you're not hearing the stall horn. -->
 *   Control buffet
     <!-- Finally, as turbulent airflow from the wings strikes the rear tail assembly a buffeting can be felt through the controls. This can vary between aeroplane types, and for example isn't very noticeable in Cessnas but will be quite apparant in some other types. -->
+*   Nose drop
+    <!-- As the stall actually breaks, the wings will produce less lift and the nose will drop due to the lift/weight couple. -->
+
+![bg right](./stall-3rd-person.jpg)
 
 ---
 
@@ -236,11 +258,24 @@ Use aircraft model to show stall motion. When the stall occurs, it is quite comm
 *   **Ailerons** – neutral
     <!-- We cannot use ailerons to combat the roll, as that will cause the dropped wing to increase its AoA and move deeper into the stall. -->
 *   **Rudder** – to keep wings level
-    <!-- Is there any control that has roll as its secondary effect? -->
+    <!-- How else could we control roll? Perhaps using a control's secondary effect? -->
 *   **Elevator** – reduce back pressure
     <!-- The stall is caused by excessive angle of attack, and since the elevator is our angle of attack control we need to reduce back pressure to reduce angle of attack and get the wing flying again -->
 *   **Power** – full
-    <!-- Power to full to increase our speed, and then we can recover into normal straight and level flight or a climb to regain our altitude -->
+    <!-- Power to full to increase our speed, and then we can recover into normal straight and level flight or a climb to regain our altitude. Note that we can recover from a stall at idle power, we just need to reduce the angle of attack. The point of adding power immediately is to reduce the height loss during recovery. -->
+
+---
+
+## Application
+
+---
+
+## Threat and error management
+
+*   Avoid a stall in the first place
+    *   Know and fly well within the limits of the aircraft
+    *   Avoid more than 30 degrees of bank in the circuit and at low level <!-- To reduce load factor and increase safety margin when low to the ground -->
+    *   Remember that increasing wing loading increases stall speed <!-- Steep turns, pulling out of a dive, etc. -->
 
 ---
 
@@ -257,28 +292,43 @@ Use aircraft model to show stall motion. When the stall occurs, it is quite comm
         <!-- Ts & Ps, full rich -->
     *   L – Lookout
         <!-- 180 degree clearing turn + radio call -->
+
+![bg right](./stall-external.jpg)
+
+---
+
+## Threat and error management
+
 *   Smooth but positive control inputs
     <!-- Abrupt or jerky control inputs can exacerbate the stall or increase the altitude loss during the recovery -->
 *   Human factors
     <!-- The first couple of times you are exposed to stalls it's normal to feel a bit anxious or uncomfortable, once you've done them a few times you will realise that practicing intentional stalls is not a big deal at all. Having said that, if you're not feeling well let me know and we can fly level until you're comfortable to continue. -->
 
+![bg right](./stall-external.jpg)
+
 ---
 
 ## Review questions
 
-*   What is the effect of increased weight on stall speed?
-    <!-- Weight increases stall speed -->
-*   What effect will increasing power have on stall speed?
-    <!-- Power reduces stall speed -->
-*   What effect will adding flaps have on stall speed?
-    <!-- Flaps reduces stall speed -->
-*   What effect will frost on the wings have on stall speed?
-    <!-- Contaminants on the surface of the wings will increase stall speed -->
-*   What are the symptoms of a stall?
+Factor | Effect on stall speed
+-------|----------------------
+Increased weight | <!-- Increase -->
+Increased power | <!-- Decrease -->
+Extending flaps | <!-- Decrease -->
+Frost on the wings | <!-- Increase -->
+Performing a turn | <!-- Increase -->
+Turbulence | <!-- Can increase -->
+
+---
+
+## Review questions
+
+*   How could you recognise an impending stall?
     <!-- Reducing airspeed, high nose attitude, control column back, reduced aerodynamic noise, sloppy controls, stall horn, buffet -->
-*   What are the steps to recover from a stall?
+*   How would you recover from a stall?
     <!-- Ailerons neutral, opposite rudder, reduce backpressure, full power -->
 *   Demo the stall motion with the model
+*   What are the checks we perform before intentionally practicing stalls?
 
 ---
 
@@ -286,8 +336,8 @@ Use aircraft model to show stall motion. When the stall occurs, it is quite comm
 
 You should now be able to:
 
-*   State all symptoms of an impending stall
+*   State the symptoms of an impending stall
 *   Demonstrate the stalling motion with the model
 *   Describe the stall recovery technique
-*   Explain the factors affecting stall speed
-*   List the pre-stall checks
+*   List the factors affecting stall speed
+*   State the pre-stall checks
