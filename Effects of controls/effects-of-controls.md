@@ -153,50 +153,23 @@ We can change the magnitude of the force created by the control surface by chang
 
 ---
 
+<!--
+_class:
+-->
+
 ## Aircraft axis
 
 *   An axis is an imaginary line about which a body rotates
 *   An aircraft has 3 axis about which it can rotate:
-    *   Longitudinal axis
-    *   Lateral axis
-    *   Normal (vertical) axis
+    *   <span style="color: #09f">Longitudinal axis</span>
+        <!-- Longitudinal axis runs down the length of the plane, and when the wings tilt the aircraft is rotating about the longitudinal axis -->
+    *   <span style="color: #0c0">Lateral axis</span>
+        <!-- The lateral axis runs through the plane from wingtip to wingtip. When the nose moves up and down the aircraft is rotating about the lateral axis. -->
+    *   <span style="color: #f00">Normal (vertical) axis</span>
+        <!-- The normal axis is also known as the vertical axis, and it runs from top to bottom through the plane's centre of gravity. When the nose moves left or right the aircraft is rotating about the vertical axis. -->
 *   All 3 axis intersect at the aircraft's centre of gravity
 
----
-
-<!--
-_class:
--->
-
-## Longitudinal axis
-
-![h:450](./longitudinal-axis.png)
-
-<!-- Longitudinal axis runs down the length of the plane, and when the wings tilt the aircraft is rotating about the longitudinal axis -->
-
----
-
-<!--
-_class:
--->
-
-## Lateral axis
-
-![h:450](./lateral-axis.png)
-
-<!-- The lateral axis runs through the plane from wingtip to wingtip. When the nose moves up and down the aircraft is rotating about the lateral axis. -->
-
----
-
-<!--
-_class:
--->
-
-## Normal (vertical) axis
-
-![h:450](./normal-axis.png)
-
-<!-- The normal axis is also known as the vertical axis, and it runs from top to bottom through the plane's centre of gravity. When the nose moves left or right the aircraft is rotating about the vertical axis. -->
+![bg right contain](3-axis.png)
 
 ---
 
@@ -210,26 +183,21 @@ _class:
 *   <span style="color: #09f">Elevator</span>
     <!-- Pushing the control column forward tilts the elevator down. The air hitting the elevator causes the tail to move up, and the nose to move down. This is called pitch. -->
     <!-- Primary effect: pitch up and down -->
+    *   Primary effect: pitch
 *   <span style="color: #0c0">Ailerons</span>
     <!-- Turning the control column moves the ailerons in opposite directions. When you turn the control column left the left aileron will move up, and the right aileron will move down. This pushes the left wing down, and the right wing up. This is called roll. -->
     <!-- Primary effect: roll -->
-    <!-- Tilts the wings reaction force, causes aircraft to start moving sideways through the air. Air hits the vertical tail fin, which causes a yaw in the direction of roll. Therefore the secondary effect of ailerons is yaw. -->
+    <!-- Tilts the wings' reaction force, causes aircraft to start moving sideways through the air. Air hits the vertical tail fin, which causes a yaw in the direction of roll. Therefore the secondary effect of ailerons is yaw. -->
+    *   Primary effect: roll
+    *   Secondary effect: yaw
 *   <span style="color: #f00">Rudder</span>
     <!-- Pushing one of the rudder pedals in moves the rudder. For example pushing the left rudder moves the rudder to the left, which moves the tail right and the nose left. This is called yaw. -->
     <!-- Primary effect: yaw -->
     <!-- As the plane yaws, the outside wing travels a longer path through the air, and therefore is travelling faster. Speed increases the reaction force from the outside wing, which means the outside wing moves upwards. Therefore the secondary effect of rudder is roll. -->
+    * Primary effect: yaw
+    *   Secondary effect: roll
 
-![bg right contain](./control-surfaces.png)
-
----
-
-## Flight controls
-
-Flight control | Primary effect | Secondary effect
----------------|----------------|-----------------
-Elevator       | Pitch          | Nil
-Ailerons       | Roll           | Yaw
-Rudder         | Yaw            | Roll
+![bg right contain](./3-axis-and-controls.png)
 
 <!-- What can you tell me about the effects of ailerons vs rudder? Their primary and secondary effects are opposite. -->
 
@@ -295,10 +263,19 @@ _backgroundColor: #fff
 
 ## Flaps
 
-![h:450](./flaps.png)
+*   Changes the shape of the wing
+*   Increases lift
+*   Increases drag
+*   Extend and raise in stages—about 10° at a time
+*   Only extend flaps when in the white arc
+
+
+![bg right contain](./flaps.png)
 
 <!--
 Flaps allow us to change the size and the shape of the wing. Remembering back to our piece of paper, what does that do to the reaction force? It increases it! Flaps also affect the drag force, which is the one that resists our movement through the air. What would you guess flaps does to the drag force, increase or decrease it? Increase it! That extra flaps allows us to descend at a steeper angle without going faster.
+
+We adjust flaps using a small control on the right half of the cockpit. The control works slightly different in different planes, but in a 150 we toggle the switch down to lower flaps, and toggle it up to raise flaps. The middle position keeps the flaps in their current position. There is a flaps indicator on the upper-left pillar next to the pilot seat, but it's very difficult to see, so when lowering or raising flaps we count about 3 seconds to get through each 10 degrees. We also typically raise and lower flaps in stages—about 10 degrees at a time.
 
 Because we're changing the shape of the wing we also change the structural limitations of the wing. If we look at the airspeed indicator you'll see a white arc, that arc shows the flaps operation speed. We are only allowed to operate the flaps when our speed is within that white arc.
 -->
@@ -316,9 +293,9 @@ _class: lead
 ## Throttle
 
 *   The throttle control changes the power produced by the engine
-    *   Hence RPM
-    *   Hence airspeed
+    *   Power affects the engine's RPM—indicated by the tachometer
     <!-- Unlike a car or a motorbike where we are constantly adjusting the throttle, in a plane we typically set the throttle once for the flight configuration and then leave the power constant -->
+    *   Power can be used in combination with elevator to change our speed, or change our altitude
 
 <!-- The throttle control is the black push-pull control located in the center underneath the instrument panel. Fully pushed in is full power, and fully pulled back is idle power. -->
 
@@ -348,7 +325,7 @@ _class:
 
 ![bg right contain](./four-forces.png)
 
-<!-- When we talk about the four forces we can imagine that thrust and drag form a "couple" and that lift and weight form a "couple". A couple is when two forces are acting in opposite directions, but they don't line up. Because of this they cause a rotation. The engine produces thrust which pulls forward from down low, while drag pulls the plane backward from up higher. So you can imagine if we add thrust that will cause the nose to pitch up, whereas if we reduce thrust the nose will pitch down. -->
+<!-- When we talk about the four forces we can imagine that thrust and drag form a "couple" and that lift and weight form a "couple". A couple is when two equal forces are acting in opposite directions, but they don't line up. Because of this they cause a rotation. The engine produces thrust which pulls forward from down low, while drag pulls the plane backward from up higher. So you can imagine if we add thrust that will cause the nose to pitch up, whereas if we reduce thrust the nose will pitch down. -->
 
 ---
 
@@ -388,15 +365,22 @@ _backgroundColor: #fff
 
 ---
 
+<!--
+_class:
+_backgroundColor: #fff
+-->
+
 ## Instrument panel
 
 *   Standard 6 pack
     *   Airspeed indicator
-    *   Attitude indicator
+    *   Artificial horizon
     *   Altimeter
-    *   Vertical speed indicator
+    *   Turn coordinator
     *   Directional gyro
-    *   Turn and balance indicator
+    *   Vertical speed indicator
+
+![bg right contain](./six-pack.png)
 
 ---
 
@@ -406,7 +390,9 @@ _backgroundColor: #fff
 *   Temperature and pressure guages
 *   Magnetic compass
 *   Radios
+    <!-- Radios have controls so we can tune radio frequencies and adjust volume—used for communication with ATC and other traffic -->
 *   Transponder
+    <!-- Transponder allows us to set a "transponder code" which is used by ATC to identify individual planes -->
 
 ---
 
@@ -423,6 +409,23 @@ _backgroundColor: #fff
 *   We combat threats and errors by implementing **countermeasures**
 
 <!-- Before each flight we will identify relevant threats, and talk about the errors we could make and what countermeasures we would introduce to mitigate the threat -->
+
+---
+
+## Threat and error management
+
+Threat | Error | UAS | Countermeasure
+-|-|-|-
+Traffic | Poor lookout | Near miss | Lookout, "clock code"
+
+---
+
+## Threat and error management
+
+Threat | Error | UAS | Countermeasure
+-|-|-|-
+Traffic | Poor lookout | Near miss | Lookout, "clock code"
+Dual controls | Control confusion | Control conflict, no one in control | "My controls" / "Your controls"
 
 ---
 
