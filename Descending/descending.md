@@ -16,7 +16,7 @@ _footer: ''
 
 ## Aim
 
-To learn the different types of descent, the aerodynamics behind a descent, and the factors affecting glide performance.
+*   To learn the different types of descent, the aerodynamics behind a descent, and the factors affecting glide performance.
 
 ---
 
@@ -40,12 +40,13 @@ By the end of this brief you should be able to:
 
 ## Lesson overview
 
-Duration: approx 45 mins
+Duration: approx 50 mins
 
 *   Types of descent
 *   Forces in a descent
 *   Glide range
 *   Factors affecting glide performance
+*   Application
 *   Threat and error management
 *   Review questions
 
@@ -53,10 +54,12 @@ Duration: approx 45 mins
 
 ## Revision
 
-*   What happens to the direction of the lift vector in a climb?
+*   Compared to straight and level, how does the direction of the lift vector change in a climb?
     <!-- It tilts backwards. Lift acts 90 degrees to the direction of motion. -->
-*   What happens to total drag as speed increases?
-    <!-- It decreases and then increases. At low speed induced drag dominates, and at high speed parasite drag dominates. Our minimum drag speed is somewhere in the middle. -->
+*   Why does the total drag curve form a "U" shape?
+    <!-- At low speed induced drag dominates, and at high speed parasite drag dominates. Our minimum drag speed is somewhere in the middle. -->
+*   What is the pilot's lift formula?
+    <!-- Lift = Speed * AoA -->
 *   How does carby heat mitigate carby icing?
     <!-- It redirects hot, unfiltered air from around the exhaust into the venturi which melts the ice. -->
 
@@ -108,7 +111,9 @@ _class: lead
 
 ![h:450](./four-forces_2.png)
 
-<!-- Weight acts vertically down towards the earth, but since the flight path is angled we can split weight into two components -->
+<!-- For a moment, let's forget about planes and instead imagine a car parked on a hill. Weight acts straight down, but if we release the parking brake which was in the car going to go? Forward, down the hill. So we can split weight into two components, one acting forward and one acting perpendicular. -->
+
+<!-- Since the plane's flight path is tilted, we can do the same thing. -->
 
 ---
 
@@ -319,6 +324,7 @@ _class:
 ## Glide range
 
 *   The lift/drag ratio determines glide range
+    <!-- DRAW: 4 forces at different lift:drag ratios, remembering R1 (= L + D) must equal W. Draw the glide path second, then L and D can be inferred, -->
 *   Best lift/drag ratio occurs at a specific angle of attack
 *   We don't have an angle of attack indicator, so manufacturers provide a recommended glide speed which will achieve best lift/drag ratio
     <!-- In heavier planes you will notice that the POH specifies different glide speeds for different weights, which allow the pilot to achieve the best lift/drag angle of attack at various weights. The 150 has a small range of operating weights, so the POH specifies a single speed that is about right at any weight. -->
@@ -465,9 +471,9 @@ Wind     | Hw Increase, Tw Decrease | Nil
 
 ## Review questions
 
-*   Name the 3 types of descent
-*   State which 2 forces act to achieve equilibrium with weight during a descent
-*   An aircraft with a lift/drag ratio of 10:1 is 3000ft (0.5nm) above the ground. Determine the glide range in nm.
+*   What are the 3 types of descent?
+*   Compared to straight and level, how does the lift force change in a descent?
+*   An aircraft with a lift/drag ratio of 10:1 is 3000ft (0.5nm) above the ground. What is the glide range in nm?
 *   How does a headwind affect glide range?
 *   Your instructor leaves the plane for you to go solo. What effect does the reduced weight have on glide range?
 
