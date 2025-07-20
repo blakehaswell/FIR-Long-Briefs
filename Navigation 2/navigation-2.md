@@ -51,7 +51,7 @@ By the end of this brief you should be able to:
 
 ## Lesson overview
 
-Duration: approx 2 × 60 mins
+Duration: approx 60 mins
 
 *   Controlled airspace
 *   Navigation aids
