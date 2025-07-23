@@ -67,9 +67,9 @@ Duration: approx 50 mins
 *   What are the four forces which act on an aeroplane in straight and level flight?
 *   What is meant by equilibrium?
 *   Why does the total drag curve form a "U" shape?
+*   How does the plane respond when you increase power?
 
 <!--
-
 ### Four forces
 
 *   Weight
@@ -81,6 +81,13 @@ Duration: approx 50 mins
 
 Net force acting on an object is zero—no changes to an object's motion
 
+### Drag
+
+Induced drag at low speed, parasite drag at high speed
+
+### Power
+
+Plane pitches up (thrust/drag couple) and yaws to the left (slipstream)
 -->
 
 ---
@@ -130,6 +137,22 @@ TODO: Consider moving this after forces in a climb
 *   Better engine cooling
 *   Better forward visibility
 *   Reduces en-route time
+
+Why does best rate get higher quicker? Think of riding a bicycle up the steepest hill you could possibly ride up—how fast are you going? You're going up a really steep slope, but it's not very efficient because you're going so slowly. Now imagine a less steep hill that you can go up a bit more quickly. Even though the hill isn't as steep, you can actually get up the hill more quickly because your speed is faster.
+-->
+
+---
+
+<!--
+_class: lead
+-->
+
+## Forces in a climb
+
+![h:480](../Straight%20and%20level/four-forces.png)
+
+<!--
+Starting from straight and level, we have the four forces (weight, lift, thrust, and drag), and they are in equilibrium with lift = weight and thrust = drag.
 -->
 
 ---
@@ -142,7 +165,7 @@ _class: lead
 
 ![w:580](./four-forces_1.png)
 
-<!-- Let's analyse the forces acting on a plane in steady flight up the green path -->
+<!-- In a climb, our flight path will be tilted upwards, and our forces will resolve differently. -->
 
 ---
 
@@ -155,7 +178,7 @@ _class: lead
 ![w:580](./four-forces_2.png)
 
 
-<!-- Weight acts downwards towards the centre of the earth -->
+<!-- Weight still acts downwards towards the centre of the earth -->
 
 ---
 
@@ -167,7 +190,10 @@ _class: lead
 
 ![w:580](./four-forces_3.png)
 
-<!-- Drag, once again, acts backwards against the direction of motion -->
+<!-- And drag, once again, acts backwards against the direction of motion. However this time, our direction of motion is slightly upwards to drag acts backwards and slightly down.
+
+Now, let's forget about planes for a second and imagine a car parked on a hill. If you park your car on a hill like this, and you forget to put your parking brake on, what is going to happen to your car? It will roll backwards down the hill. This is due to weight, and the way we can think of this is that there's two components of weight: 1) a perpendicular component which holds the car down against the earth and 2) a rearward component of weight which is pulling the car backwards down the hill.
+-->
 
 ---
 
@@ -179,7 +205,9 @@ _class: lead
 
 ![w:580](./four-forces_4.png)
 
-<!-- Let's start by adding weight and drag together to create a resultant and call it R1. -->
+<!--
+We can do the same for the plane, and split weight into a perpendicular component and a rearwards component. The perpendicular component acts at right angles to the flight path, and the rearwards component acts opposite the flight path, just like drag.
+-->
 
 ---
 
@@ -192,9 +220,11 @@ _class: lead
 ![w:580](./four-forces_5.png)
 
 <!--
-Since the plane is in equilibrium, there must be a force equal an opposite to R1, let's call it R2.
+Lift acts perpendicular to the direction of motion, so compared to straight and level it is tilted back. And in a climb, lift is equal and opposite to the perpendicular component of weight.
 
-Knowing what you already know about the 4 forces, which two forces do you think are contributing to R2? Thrust and lift.
+You'll notice then, that means lift is less than weight in a climb. Many people find that surprising, because you would think that lift would be the most important force in a climb.
+
+Now let's look at the rearward component of weight.
 -->
 
 ---
@@ -208,7 +238,7 @@ _class: lead
 ![w:580](./four-forces_6.png)
 
 <!--
-Thrust acts in the direction of motion
+Like we said the rearward component of weight acts in the same direction as drag, so we can move the force line and add it onto drag.
 -->
 
 ---
@@ -222,15 +252,9 @@ _class: lead
 ![w:580](./four-forces_7.png)
 
 <!--
-Lift acts at 90 degrees to the direction of motion.
+Thrust then needs to overcome both drag and the rearward component of weight. So you can see that thrust is the most important force in a climb—the more thrust we have the steeper we can climb. We can see this by imagining a plane that could climb straight up. Lift is irrelevant at this climb angle, but we would need an engine powerful enough to create enough thrust to reach equilibrium with both weight and drag.
 
-In level flight, thrust = drag. What can you tell me about the relationship between thrust and drag in this diagram? Thrust > drag.
-
-So why doesn't the plane accelerate? To answer this, we split weight into two components: 1) the perpendicular component of weight which is equal and opposite to lift and 2) the rearward component of weight which acts opposite thrust. We can visualise this by adding the rearward component of weight to drag, and you can see that thrust = drag + RCW.
-
-In straight and level flight, lift = weight, but what can you tell me about lift in this diagram? Lift = PCW. Therefore, lift is less than weight in a climb. Not convinced? Imagine an airplane that is pointed straight up, and capable of climbing at that angle. Weight acts downwards, as does drag. Thrust is the only force which can create equilibrium, as it points along the direction of motion.
-
-So the amount of thrust available dictates the angle we can climb at. Now, let's look at climb performance so we can examine that idea in a bit more detail.
+So we can see the plane is in equilibrium in a climb. Lift = perpendicular component of weight. Thrust = drag + rearward component of weight. And as we said, thrust dictates the angle we can climb at. Now let's look at climb performance so we can examine this idea in more detail.
 -->
 
 ---
