@@ -199,7 +199,7 @@ _class:
 
 ![bg right contain](./3-axis-and-controls.png)
 
-<!-- What can you tell me about the effects of ailerons vs rudder? Their primary and secondary effects are opposite. -->
+<!-- What can you tell me about the effects of ailerons vs rudder? Their primary and secondary effects are opposite. As you'll see over the next few lessons it is important that ailerons and rudder are used in a coordinated fashion to achieve a given effect, and we'll use the balance ball to ensure that the controls are properly coordinated. -->
 
 ---
 
