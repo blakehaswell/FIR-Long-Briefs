@@ -5,6 +5,13 @@ class: invert
 footer: 'Turning'
 --- 
 
+<style>
+    table {
+        width: 100%;
+        text-align: left;
+    }
+</style>
+
 <!--
 _class: lead
 _footer: ''
@@ -284,27 +291,20 @@ And on the inside wing?
 
 <!--
 _class:
-_backgroundColor: #fff
 -->
+
+<style scoped>
+    td {
+        background-color: #fff !important;
+        text-align: center;
+    }
+</style>
 
 ## Aileron drag & adverse yaw
 
-Differential ailerons
-
-![](./differential-ailerons.jpg)
-
----
-
-<!--
-_class:
-_backgroundColor: #fff
--->
-
-## Aileron drag & adverse yaw
-
-Frise ailerons
-
-![](./frise-ailerons.jpg)
+Differential ailerons | Frise ailerons
+----------------------|---------------
+![](./differential-ailerons.jpg) | ![](./frise-ailerons.jpg)
 
 <!-- C150 has both differential ailerons and Frise ailerons -->
 
