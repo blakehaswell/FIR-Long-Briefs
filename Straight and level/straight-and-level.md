@@ -235,6 +235,11 @@ _class: lead invert
 
 ![bg contain right](./coanda-effect.png)
 
+<!--
+An example of the coanda effect is pouring liquid out of a glass e.g. when I make my coffee in the morning I occasionally try to pour milk from my frother into my coffee cup and the milk stays attached to the surface of the frother and pours all over my kitchen benchtop instead of my cofee cup!
+
+The low pressure area above the wing pulls the wing up. -->
+
 ---
 
 ## Bernoulli's principle
@@ -281,7 +286,7 @@ $$
 ![](./bernoullis-principle_2.png)
 
 <!--
-If we cut the venturi tube in half, we get something approximating the top surface of a wing, and we can see the same low pressure area created as air flows over the curved top surface.
+If we cut the venturi tube in half, we get something approximating the top surface of a wing, and we can see the same low pressure area created as air flows over the curved top surface. This low pressure area pulls the wing up.
 -->
 
 ---
@@ -357,6 +362,8 @@ _class: lead
 *   Increases at low speeds and high wing loadings
 
 ![bg right](./Cessna_182_model-wingtip-vortex.jpg)
+
+<!-- Induced drag increases at low speed due to high AoA, which creates a bigger pressure differential (therefore more airflow from under the wing to the top) -->
 
 ---
 
