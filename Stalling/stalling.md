@@ -168,12 +168,12 @@ Because we know the stalling AoA is a constant, we can substitute the variable A
 *   Cessna 150 V<sub>S</sub> is 47kts
     <!-- No flap, no power, max weight, most forward CG. Assumes straight and level, but we can stall at any speed during manouvres, as we shall soon see. -->
 *   Weight
-    <!-- If we increase weight, we need to increase lift. Therefore stall speed increases. -->
+    <!-- If we increase weight, we need to increase lift. Therefore stall speed increases. An increased stall speed is obviously not desirable, as it means at any given speed we have less margin over the stall. -->
     <!-- DRAW: Four forces, increase weight vector and ask what needs to happen to achieve equilibrium -->
     *   Increased weight = increased stall speed
     <!-- Be cautious with added weight—particularly immediately after takeoff with a heavier load your stall speed can be noticeably faster. -->
 *   Flaps
-    <!-- If we add flaps, we increase lift produced at any given speed. Therefore we can fly slower and still generate enough lift, so stall speed decreases. How much does it decrease? Vs0 is the stall speed with full flaps (bottom of the white arc) -->
+    <!-- If we add flaps, we increase lift produced at any given speed. Therefore we can fly slower and still generate enough lift, so stall speed decreases. How much does it decrease? Vs0 is the stall speed with full flaps (indicated by the bottom of the white arc) -->
     <!-- Draw C_L diagram (C_L x AoA). C_L with flaps is just moved up on the Y axis. -->
     *   Adding flaps reduces stall speed. V<sub>S0</sub> in Cessna 150 is 42kts. 
     <!-- Flaps are used in slow flight and landings to increase safety margin over the stall. -->
@@ -201,6 +201,7 @@ $$
     *   New V<sub>S</sub> = Old V<sub>S</sub> × √Load factor
         <!-- Illustrate load factor with four forces diagram. Load factor = lift / weight. -->
         <!-- Don't mix stall steep turns and low speed -->
+        <!-- Asyou can see, a stall can occur at any airspeed or attitude, but only one angle of attack. -->
 
 ---
 
