@@ -85,8 +85,9 @@ _class: lead
 ![h:450](../Straight%20and%20level/four-forces.png)
 
 <!--
-Remembering our four forces from straight and level, what would happen if we removed thrust?
-The plane would slow down, except that it is trimmed to fly at a particular angle of attack and therefore speed. So instead of slowing down, it pitches down to descend—trading altitude for speed.
+Remembering our four forces from straight and level, we said talked about the idea of "couples"—what is a couple? Because the forces are offset, the couples created a rotating force. Thurst-drag created a nose-up force, and weight-lift created a nose-down force.
+
+Thinking about these couples, what would happen if we removed thrust? The nose-up force from the lift-drag couple would reduce, causing the nose to lower.
 -->
 
 ---
@@ -149,7 +150,7 @@ _class: lead
 
 ![h:450](./four-forces_5.png)
 
-<!-- The forward component of weight acts forwards along the flight path, and is in equilibrium with drag. So in a glide we no longer have need for thrust, as gravity does the forward work. -->
+<!-- The forward component of weight acts forwards along the flight path, and is in equilibrium with drag. So in a glide we no longer have need for thrust, as gravity does the forward work. If we do a powered descent, thrust would in any-case be less than drag. -->
 
 ---
 
@@ -161,7 +162,7 @@ _class: lead
 
 ![h:450](./four-forces_6.png)
 
-<!-- Meanwhile, the perpendicular component of weight acts at right angles to the flight path and is in equilibrium with lift. -->
+<!-- Meanwhile, the perpendicular component of weight acts at right angles to the flight path and is in equilibrium with lift. Note that because lift is equal to a component of weight, that means lift is less than the total weight force, -->
 
 ---
 
@@ -173,7 +174,13 @@ _class: lead
 
 ![h:450](./four-forces_7.png)
 
-<!-- So you can see all of the forces are in equilibrium, with weight being balanced with lift and drag. Adding a little thrust simply shallows the flight path, and the forces will once again reach equilibrium just in a shallower descent. -->
+<!--
+So you can see all of the forces are in equilibrium, with weight being balanced with lift and drag.
+
+Adding a little thrust simply shallows the flight path, as a smaller forward component of weight is required to balance with drag.
+
+Similarly, adding flaps requires a steeper descent angle because we need more forward component of weight to balance the increased drag.
+-->
 
 ---
 
