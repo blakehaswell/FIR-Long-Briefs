@@ -233,7 +233,7 @@ _backgroundColor: #fff
 
 ![h:450](./trim-tabs.png)
 
-<!-- An aircraft can have trim tabs on all control surfaces and you will find that larger and more powerful planes, particularly multi-engine planes, do have 3 trim controls. The Cessna 150 however only has trim on the elevator. -->
+<!-- An aircraft can have trim tabs on all control surfaces and you will find that larger and more powerful planes, particularly multi-engine planes, do have 3 trim controls. The Cessna 172 however only has trim on the elevator and the rudder. -->
 
 ---
 
@@ -249,7 +249,7 @@ _backgroundColor: #fff
 <!-- The trim tab is deflected into the wind in the opposite direction that you want the primary control surface to move, and because it's at the end of a long lever it only needs to create a relatively small force to balance with the control surface in its new position. -->
 
 <!--
-We control the trim by moving the trim wheel. If we roll the trim wheel forward the elevator will be trimmed to a more nose-down position. If we roll it backward the elevator will be trimmed to a more nose-up position. The way I remember this is if I'm holding forward pressure, I need to roll the trim wheel forward. If I'm holding back pressure, I need to roll the trim wheel backward.
+We control the elevator trim by moving the trim wheel. If we roll the trim wheel forward the elevator will be trimmed to a more nose-down position. If we roll it backward the elevator will be trimmed to a more nose-up position. The way I remember this is if I'm holding forward pressure, I need to roll the trim wheel forward. If I'm holding back pressure, I need to roll the trim wheel backward.
 
 Importantly, we don't fly using trim as our means to control attitude. We set the attitude using the elevator, and then trim to relieve control pressure. And in the plane you will find that the adjustments needed to the trim are quite small, particularly when you are trying to get the trim just right—you might only need to move the trim half a centimeter to get it right. We know we've gotten it right because we can take our hands off the yoke and the attitude stays exactly where it is.
 -->

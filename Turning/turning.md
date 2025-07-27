@@ -306,7 +306,7 @@ Differential ailerons | Frise ailerons
 ----------------------|---------------
 ![](./differential-ailerons.jpg) | ![](./frise-ailerons.jpg)
 
-<!-- C150 has both differential ailerons and Frise ailerons -->
+<!-- C172 has both differential ailerons and Frise ailerons -->
 
 ---
 

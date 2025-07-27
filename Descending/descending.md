@@ -334,9 +334,9 @@ _class:
     <!-- DRAW: 4 forces at different lift:drag ratios, remembering R1 (= L + D) must equal W. Draw the glide path second, then L and D can be inferred, -->
 *   Best lift/drag ratio occurs at a specific angle of attack
 *   We don't have an angle of attack indicator, so manufacturers provide a recommended glide speed which will achieve best lift/drag ratio
-    <!-- In heavier planes you will notice that the POH specifies different glide speeds for different weights, which allow the pilot to achieve the best lift/drag angle of attack at various weights. The 150 has a small range of operating weights, so the POH specifies a single speed that is about right at any weight. -->
-*   In a C150 we get the best lift/drag ratio of about 9:1 at 60kts
-    <!-- C150 has a lift/drag ratio of 9:1. So at 6000ft AGL (1nm) we could glide about 9nm (1.5nm per 1000ft). Gliders have a lift/drag ratio of 50:1 or even greater, so can glide huge distances even without thermals. -->
+    <!-- In heavier planes you will notice that the POH specifies different glide speeds for different weights, which allow the pilot to achieve the best lift/drag angle of attack at various weights. The 172 has a small range of operating weights, so the POH specifies a single speed that is about right at any weight. -->
+*   In a C172 we get the best lift/drag ratio of about 9:1 at 65kts
+    <!-- C172 has a lift/drag ratio of 9:1. So at 6000ft AGL (1nm) we could glide about 9nm (1.5nm per 1000ft). Gliders have a lift/drag ratio of 50:1 or even greater, so can glide huge distances even without thermals. -->
 
 ---
 

@@ -165,7 +165,7 @@ $$
 Because we know the stalling AoA is a constant, we can substitute the variable AoA with 16 degrees. So if we want to evluate how different factors affect stall speed, we just need to think about whether the wing needs to produce more or less lift as that factor changes.
 -->
 
-*   Cessna 150 V<sub>S</sub> is 47kts
+*   Cessna 172 V<sub>S</sub> is 47kts
     <!-- No flap, no power, max weight, most forward CG. Assumes straight and level, but we can stall at any speed during manouvres, as we shall soon see. -->
 *   Weight
     <!-- If we increase weight, we need to increase lift. Therefore stall speed increases. An increased stall speed is obviously not desirable, as it means at any given speed we have less margin over the stall. -->
@@ -175,7 +175,7 @@ Because we know the stalling AoA is a constant, we can substitute the variable A
 *   Flaps
     <!-- If we add flaps, we increase lift produced at any given speed. Therefore we can fly slower and still generate enough lift, so stall speed decreases. How much does it decrease? Vs0 is the stall speed with full flaps (indicated by the bottom of the white arc) -->
     <!-- Draw C_L diagram (C_L x AoA). C_L with flaps is just moved up on the Y axis. -->
-    *   Adding flaps reduces stall speed. V<sub>S0</sub> in Cessna 150 is 42kts. 
+    *   Adding flaps reduces stall speed. V<sub>S0</sub> in Cessna 172 is 41kts. 
     <!-- Flaps are used in slow flight and landings to increase safety margin over the stall. -->
 
 ---

@@ -274,7 +274,7 @@ _class:
 ## Best angle of climb
 
 *   Occurs at maximum excess thrust
-*   Speed = 56kts
+*   Speed = 60kts
 *   Also known as: V<sub>X</sub>
 
 ![bg right contain](./excess-thrust.png)
@@ -356,7 +356,7 @@ _class:
 ## Best rate of climb
 
 *   Occurs at maximum excess power
-*   Speed = 68kts
+*   Speed = 76kts
 *   Also known as: V<sub>Y</sub>
 
 ![bg right contain](./excess-power.png)
@@ -378,7 +378,7 @@ _class:
 ## Normal (cruise) climb
 
 *   Normally ~10kts faster than V<sub>Y</sub>, depending on the plane
-*   Speed = 70–80kts
+*   Speed = 80–90kts
 
 ![bg right contain](./excess-power-cruise-climb.png)
 
@@ -408,19 +408,19 @@ _class:
             <td>
                 <span style="color: #f00">Best angle of climb</span>
             </td>
-            <td>56kts</td>
+            <td>60kts</td>
         </tr>
         <tr>
             <td>
                 <span style="color: #09f">Best rate of climb</span>
             </td>
-            <td>68kts</td>
+            <td>76kts</td>
         </tr>
         <tr>
             <td>
                 <span style="color: #0c0">Normal (cruise) climb</span>
             </td>
-            <td>70–80kts</td>
+            <td>80–91kts</td>
         </tr>
 </table>
 
@@ -473,7 +473,7 @@ As altitude increases:
 ## Flaps
 
 *   The effect of flaps can depend on the specific aircraft and flaps configuration, so check the POH!
-*   In a Cessna 150 any extension of flaps reduces maximum angle and rate of climb
+*   In a Cessna 172 any extension of flaps reduces maximum angle and rate of climb
 
 ![bg right](./flaps.jpg)
 
